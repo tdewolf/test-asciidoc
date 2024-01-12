@@ -1,0 +1,91 @@
+= Lists
+== Unordered lists
+
+Use an asterisk, for a bulleted list. To add a title to the list, type the title above the bulleted list and precede with a period.
+
+.Python's animals
+* parrot
+* snail
+
+Other unordered list styles: use hyphen (-) but with this style you can only create single level lists.
+
+Multi-level unordered list:
+
+.Multi-level unordered list
+* level 1
+** level 2
+*** level 3
+** back to level 2
+* back to level 1
+** new level 2
+*** new level 3
+* jump back to a level 1
+
+== Ordered lists
+
+Use period space list item to created an ordered list.
+
+.Ordered list
+. step 1
+. step 2
+. step 3
+
+Start order from a specific version:
+[start=<number>], for example
+
+[start=4]
+. step 4
+. step 5
+
+You can also reverse an order:
+
+[%reversed]
+. item 3
+. item 2
+. item 1
+
+Give a title to a list the same ways as in unordered lists.
+
+You can nest items by using more periods.
+
+.Nested ordered list
+. step 1
+. step 2
+.. step 2a
+.. step 2b
+. step 3
+
+=== Combining ordered and unordered lists
+
+. Linux
+* Fedora
+* Ubuntu
+. BSD
+* FreeBSD
+* NetBSD
+
+=== Ordered list styles
+Add class style by putting [style, start=x] above the list.
+
+.Possible styles
+* arabic (1. 2. 3.)
+* loweralpha (a. b. c.)
+* lowerroman (i. ii. iii.)
+* upperalpha (A. B. C.)
+* upperroman (I. II. III.)
+
+== Description lists
+A description list, or dlist, is useful to create definition lists or lists with terms and their explanation.
+
+CPU:: The brain of the computer.
+RAM:: Random Access Memory, temporary memory for data that the CPU uses during an operation.
+Hard drive:: Permanent storage ofr operating system and user files.
+
+To show term and description horizontally, add [horizontal] above the dlist.
+
+[horizontal]
+CPU:: The brain of the computer.
+RAM:: Random Access Memory, temporary memory for data that the CPU uses during an operation.
+Hard drive:: Permanent storage ofr operating system and user files.
+
+A description list can be any AsciiDoc element

@@ -1,0 +1,16 @@
+= Delimited blocks
+
+Specific blocks in Asciidoc
+
+== Code block
+
+Code block is defined by `----`.
+
+\`----` +
+your code here +
+\`----`
+
+results in:
+----
+your code here
+----

@@ -1,0 +1,6 @@
+= Test asciidoc
+
+
+// vim: set syntax=asciidoc:
+
+
