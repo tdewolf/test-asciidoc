@@ -1,0 +1,48 @@
+= Links and images
+
+== External links
+Add the URL (http, https, ftp, irc, mailto and email addresses).
+
+Example: https://asciidoctor.org or thomas@sheetconsultancy.be
+
+If you want to omit the used URI scheme, add the hide-uri-scheme in the document's header.
+
+:hide-uri-scheme:
+https://asciidoctor.org
+
+To add a link to text, add the URL and append the show text between square brackets: +
+In the https://asciidoctor.org[asciidoc documentation], you find everything you need to know to write in asciidoc.
+
+If a link is not detected by the parser, use the link macro: +
+link:https://sheetconsultancy.be[Sheet Consultancy]
+
+To open a link in a new tab, use show text and end the text with the caret (^) or with "window=_blank". +
+Example: https://sheetconsultancy.be[Sheet Consultancy^] or https://sheetconsultancy.be[Sheet Consultancy,window=_blank]
+
+== Links to relative files
+Use the link macro to link to an external file, relative to the current document.
+
+link:readme.adoc[Open the readme.adoc file.]
+
+== Cross references
+Use double angled brackets around the ID of a target block or section. The target can also be the path to another document with an optional anchor.
+
+The section <<External links,External links>> describes how you can create external links in asciidoc.
+
+You can also use the internal xref macro.
+
+Link to file relative to current document: +
+<<004_lists.adoc,Lists>>
+
+== Images
+image::<image>[]
+
+Optionally, add alt-text between the square brackets.
+
+Add id, title (aka caption), set dimensions and make it a link: +
+[#img-sunset]
+.A mountain sunset
+[link=https://photos.google.com/photo/AF1QipN4izHisN0nlnO7XyimbFAYWEmQpJNIXmL4iddY]
+image::food.jpg[Sunset,300,200]
+
+To add an inline image, for example to add an icon in a sentence, use the image macro (image:)

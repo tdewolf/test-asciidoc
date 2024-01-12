@@ -1,0 +1,38 @@
+= Markup
+
+== Standard markup
+Bold: *bold* or **partial**bold +
+Italics: _italics_ or __partial__italics +
+B+I: *_bold-italics_* or **__partial__**bold-italics +
+Monospace: `monospace` or ``partial``monospace +
+Combine monospace with italic and bold in the same way as the bold/italics combination.
+
+== Quoted text
+Attribute list: <role>#<text># +
+This creates a span around the <text>
+
+For example: [.userinput]#asciidoc# will be wrapped in html as <span class="userinput">asciidoc</span>
+
+== Escaping behavior
+
+=== Backslash escaping
+Add a backslash before the first markup character, use double backslash if there are 2 markup characters. +
+\*stars* appears as \*stars* and not as *stars* (bold)
+\\__func__ appears as \\__func__ and not as __func__ (italics)
+
+=== Inline pass macro
+The pass macro is to avoid substitutions. The structure is pass:[what needs to be done]. +
+Example: The text pass:[<u>underline me</u>] is underlined. +
+Pass macros: special characters (c), quotes (q), attributes (a), replacements (r), macros (m), and post replacements (p).
+
+== Special symbols
+* Copyright: \(C) -> (C)
+* Registered: \(R) -> (R)
+* Trademark: \(TM) -> (TM)
+* Em dash: \-- -> --
+* Ellipsis: \... -> ...
+* Single right arrow: \-> -> ->
+* Double right arrow: \=> -> =>
+* Single left arrow: \<- -> <-
+* Double left arrow: \<= -> <=
+* Typographic apostrophe: Sam\'s -> Sam's

@@ -1,0 +1,39 @@
+= Titles
+:sectnums:
+
+There are 3 types of titles in Asciidoc:
+
+.Asciidoc title types
+* Document title
+* Section title
+* Block title
+
+== Document title
+
+This is optional but highly recommended. Use an equal sign followed by a space and then your text.
+
+The document title must be followed by an empty line, all lines immediately following the document title line will be added into the header of the output. These could contain author, version, revision date, and even document attributes, for example the application version.
+
+The advantage of adding attributes is that you can refer to them throughout the whole document using curly brackets.
+
+:appversion: 1.0
+The current version is {appversion}.
+
+This can be extremely helpful for long URLs.
+
+:sectnums!:
+== Section title
+
+Similar to the document title but starting with 2 to 6 equal signs.
+
+Important to know: +
+* Multiple document titles can only be used if the doc type is set to book.
+* Section levels cannot be skipped, you can not go from level 2 to level 4.
+
+Automatic numbering of the sections can be done by adding the `:sectnums:` attribute in the document header as done in this document. If you use numbered sections and you want to remove the number from a specific section, use `:sectnums!:` above the proper section as shown for this section. This is for all subsequent sections. To add section numbers again from a specific section, add `:sectnums:` before the proper section as shown in the following section. The numbering continues where you left off. In this document, the section Block title will have number 2.
+
+:sectnums:
+== Block title
+
+Block titles are titles for delimited block elements, lists, or paragraphs. A block title starts with a period immediately followed by the title.
+
