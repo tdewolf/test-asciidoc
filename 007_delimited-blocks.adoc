@@ -14,3 +14,67 @@ results in:
 ----
 your code here
 ----
+
+== Overview block delimiters
+
+* comment: ////
+* example: ====
+* literal: ....
+* listing, source code: ----
+* open: --
+* pass: ++++
+* quote, verse: ____
+* sidebar: ****
+* table: |===
+
+== Block metadata
+
+You can add metadata to the above mentioned blocks. Here's an overview.
+
+* Title: .Your Title Here
+* Id (anchor): [[anchorname here]]
+* Style: between square brackets, usually combined with the named block attributes
+* Named block attributes
+
+== Source code blocks
+
+Add syntax highlighting via metadata:
+
+[source,ruby]
+----
+require 'asciidoctor'
+
+puts Asciidoctor.convert_file 'mysample.adoc', to_file: false
+----
+
+You can also include a real source code file with the include macro:
+
+[source,ruby]
+----
+include::example.rb[]
+----
+
+You can even add callouts in your source code.
+
+[source,ruby]
+----
+require 'asciidoctor'  # <1>
+
+Asciidoctor.convert_file 'mysample.adoc'  # <2>
+----
+<1> Imports the library
+<2> Reads, parses, and converts the file
+
+== Open blocks
+
+Can be any block except pass and table.
+
+Example of open block acting as a sidebar.
+
+[sidebar]
+.Related information
+--
+This is aside text.
+
+It is used to present information related to the main content.
+--

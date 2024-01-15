@@ -1,0 +1,106 @@
+= Tables
+
+Much ado about tables.
+
+Most basic table: +
+[cols=2*]
+|===
+|Firefox
+|Web Browser
+
+|Ruby
+|Programming Language
+
+|TorqueBox
+|Application Server
+|===
+
+Basic table with header row: +
+[%header,cols=2*]
+|===
+|Name
+|Group
+
+|Firefox
+|Web Browser
+
+|Ruby
+|Programming Language
+
+...
+|===
+
+Basic table with alternative to define header row: +
+|===
+|Name |Group
+
+|Firefox
+|Web Browser
+
+...
+|===
+
+Basic table with cell with multiline value: +
+|===
+|Name |Group |Description
+
+|Firefox
+|Web Browser
+|Mozilla Firefox is an open-source web browser.
+It's designed for standards compliance,
+performance, portability.
+
+|Ruby
+|Programming Language
+|A programmer's best friend.
+
+...
+|===
+
+Set the relative widths of each column using column specifiers—a comma-separated list of relative values defined in the cols block attribute.
+[cols="2,3,5"]
+|===
+|Name |Group |Description
+
+|Firefox
+|Web Browser
+|Mozilla Firefox is an open-source web browser.
+It's designed for standards compliance,
+performance and portability.
+
+|Ruby
+|Programming Language
+|A programmer's best friend.
+
+...
+|===
+
+To include blocks or lists in a column, add `a`
+[cols="2,3,5a"]
+|===
+|Name |Group |Description
+
+|Firefox
+|Web Browser
+|Mozilla Firefox is an open-source web browser.
+It's designed for:
+
+* standards compliance,
+* performance and
+* portability.
+
+|Ruby
+|Programming Language
+|A programmer's best friend.
+
+...
+|===
+
+Alternatively, you can add blocks or lists to a single cell by adding `a` before the pipe (|).
+
+a|Mozilla Firefox is an open-source web browser.
+It's designed for:
+
+* standards compliance,
+* performance and
+* portability.
