@@ -1,6 +1,8 @@
 = Delimited blocks
+:examplesdir: ../samplecode
 
-Specific blocks in Asciidoc
+Specific blocks in Asciidoc +
+This is for {company}.
 
 == Code block
 
@@ -29,10 +31,10 @@ your code here
 
 == Block metadata
 
-You can add metadata to the above mentioned blocks. Here's an overview.
+You can add metadata to the above-mentioned blocks. Here's an overview.
 
 * Title: .Your Title Here
-* Id (anchor): [[anchorname here]]
+* ID (anchor): [[anchor_name_here]]
 * Style: between square brackets, usually combined with the named block attributes
 * Named block attributes
 
@@ -51,7 +53,7 @@ You can also include a real source code file with the include macro:
 
 [source,ruby]
 ----
-include::example.rb[]
+include::{examplesdir}/example.rb[]
 ----
 
 You can even add callouts in your source code.
