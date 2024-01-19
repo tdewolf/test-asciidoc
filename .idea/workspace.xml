@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b80dbe29-47c5-4929-96bc-d3e6916a97ef" name="Changes" comment="add 001 to 006 files for asciidoc writing" />
+    <list default="true" id="b80dbe29-47c5-4929-96bc-d3e6916a97ef" name="Changes" comment="add 001 to 006 files for asciidoc writing">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/modules/ROOT/nav.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/clone/clone.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/001_first-content.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/ROOT/pages/001_first-content.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/002_admonitions.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/markup/pages/002_admonitions.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/003_formatting-text.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/markup/pages/003_formatting-text.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/004_lists.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/blocks/pages/004_lists.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/005_links-and-images.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/blocks/pages/005_links-and-images.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/006_titles.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/markup/pages/006_titles.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/007_delimited-blocks.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/blocks/pages/007_delimited-blocks.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/008_tables.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/blocks/pages/008_tables.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplecode/example.rb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/blocks/examples/example.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/tdewolf/IdeaProjects/TestAsciidoc",
