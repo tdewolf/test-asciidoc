@@ -1,5 +1,5 @@
 = Delimited blocks
-:examplesdir: ../samplecode
+:examplesdir: ../examples
 
 Specific blocks in Asciidoc +
 This is for {company}.
