@@ -22,7 +22,7 @@ Example: https://sheetconsultancy.be[Sheet Consultancy^] or https://sheetconsult
 == Links to relative files
 Use the link macro to link to an external file, relative to the current document.
 
-link:readme.adoc[Open the readme.adoc file.]
+link:../../../../readme.adoc[Open the readme.adoc file.]
 
 == Cross references
 Use double angled brackets around the ID of a target block or section. The target can also be the path to another document with an optional anchor.
