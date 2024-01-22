@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b80dbe29-47c5-4929-96bc-d3e6916a97ef" name="Changes" comment="restructure docs according real life asciidoc project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/modules/blocks/pages/005_links-and-images.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/blocks/pages/005_links-and-images.adoc" afterDir="false" />
-    </list>
+    <list default="true" id="b80dbe29-47c5-4929-96bc-d3e6916a97ef" name="Changes" comment="restructure docs according real life asciidoc project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Article" />
+        <option value="Empty" />
       </list>
     </option>
   </component>
@@ -41,7 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultPlantUmlFileTemplate": "Article",
+    "DefaultPlantUmlFileTemplate": "Empty",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",

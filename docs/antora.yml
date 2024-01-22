@@ -1,0 +1,34 @@
+name: TestAsciidoc
+version: '1.0'
+display_version: '1.0 Alpha 1'
+prerelease: '.0-alpha.1'
+title: Test Ascii Doctor
+asciidoc:
+  attributes:
+    release-date: '2024-01-22'
+    release-tag: testing
+    release-version: '1.0.0-alpha.1'
+    source-language: asciidoc@
+    xrefstyle: short@
+    example-caption: false
+    listing-caption: Example@
+    version-node-major: '20'
+    version-node: '20.11.0'
+    version-npm: '10.2.4'
+    url-node-releases: https://nodejs.org/en/about/releases/
+    url-chat: https://chat.antora.org
+    url-repo: https://gitlab.com/antora/antora
+    url-asciidoc: https://docs.asciidoctor.org/asciidoc/latest
+nav:
+- modules/ROOT/nav-start.adoc
+- modules/install/nav.adoc
+- modules/ROOT/nav-content-sources.adoc
+- modules/ROOT/nav-component-versions.adoc
+- modules/page/nav.adoc
+- modules/asciidoc/nav.adoc
+- modules/navigation/nav.adoc
+- modules/playbook/nav.adoc
+- modules/ROOT/nav-generate.adoc
+- modules/ROOT/nav-publish.adoc
+- modules/extend/nav.adoc
+- modules/ROOT/nav-end.adoc
