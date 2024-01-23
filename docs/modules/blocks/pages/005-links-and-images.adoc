@@ -46,9 +46,9 @@ Add id, title (aka caption), set dimensions and make it a link:
 
 .Toast met Cambozola
 [#toast-plate,link=https://photos.google.com/photo/AF1QipN4izHisN0nlnO7XyimbFAYWEmQpJNIXmL4iddY,300,200]
-image::../images/toast-cambozola.jpg[300,200]
+image::toast-cambozola.jpg[300,200]
 
 .Another food image
-image::../images/food.jpg[More food,300,200]
+image::food.jpg[More food,300,200]
 
 To add an inline image, for example to add an icon in a sentence, use the image macro (image:)
