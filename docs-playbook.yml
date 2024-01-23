@@ -5,6 +5,7 @@ site:
 content:
   sources:
   - url: git@github.com:tdewolf/test-asciidoc.git
+    branches: ['main']
     start_path: docs
 ui:
   bundle:
