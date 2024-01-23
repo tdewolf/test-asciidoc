@@ -2,3 +2,11 @@ site:
   title: My Asciidoc Documentation
   url: https://mydocs.demo.com
   start_page: index.adoc
+content:
+  sources:
+  - url: git@github.com:tdewolf/test-asciidoc.git
+    start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
