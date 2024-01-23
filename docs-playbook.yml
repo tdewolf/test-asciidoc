@@ -1,0 +1,4 @@
+site:
+  title: My Asciidoc Documentation
+  url: https://mydocs.demo.com
+  start_page: index.adoc
