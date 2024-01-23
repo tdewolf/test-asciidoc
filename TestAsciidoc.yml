@@ -1,9 +1,0 @@
-site:
-	title: Test Asciidoc
-	start_page: 001_first-content.adoc
-content:
-	sources:
-	- url: git@github.com:tdewolf/TestAsciidoc.git
-	  branches: main
-	  start_path: docs
-
