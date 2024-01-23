@@ -32,16 +32,19 @@ The section <<External links,External links>> describes how you can create exter
 You can also use the internal xref macro.
 
 Link to file relative to current document: +
-<<004_lists.adoc,Lists>>
+xref:004-lists.adoc[]
 
 == Images
+
+----
 image::<image>[]
+----
 
 Optionally, add alt-text between the square brackets.
 
 Add id, title (aka caption), set dimensions and make it a link: +
 [#img-sunset]
-.A mountain sunset
+.Toast met Cambozola
 [link=https://photos.google.com/photo/AF1QipN4izHisN0nlnO7XyimbFAYWEmQpJNIXmL4iddY]
 image::food.jpg[Sunset,300,200]
 
