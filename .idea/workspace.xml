@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80dbe29-47c5-4929-96bc-d3e6916a97ef" name="Changes" comment="restructure docs according real life asciidoc project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/modules/blocks/pages/005-links-and-images.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/blocks/pages/005-links-and-images.adoc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
