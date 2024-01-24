@@ -4,3 +4,5 @@ Thomas De Wolf
 :keywords:asciidoc, asciidoctor, antora
 
 This is a test project to learn Asciidoc
+
+This is version {release-version}.

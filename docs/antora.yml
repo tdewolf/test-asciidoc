@@ -1,13 +1,12 @@
 name: test-asciidoc
 version: '1.0'
-display_version: '1.0 Alpha 1'
-prerelease: '.0-alpha.1'
+display_version: '1.0'
 title: Test Ascii Doctor
 asciidoc:
   attributes:
     release-date: '2024-01-22'
     release-tag: testing
-    release-version: '1.0.0-alpha.1'
+    release-version: '1.0'
     source-language: asciidoc@
     xrefstyle: short@
     example-caption: false
