@@ -19,7 +19,7 @@ asciidoc:
     url-chat: https://chat.antora.org
     url-repo: https://gitlab.com/antora/antora
     url-asciidoc: https://docs.asciidoctor.org/asciidoc/latest
-    company: 'Sheet Consultancy'
+    company: 'SHEET Consultancy'
 nav:
 - modules/ROOT/nav.adoc
 - modules/markup/nav-markup.adoc

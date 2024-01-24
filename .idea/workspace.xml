@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs-playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs-playbook.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/antora.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/antora.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/modules/blocks/nav-blocks.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/blocks/nav-blocks.adoc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
