@@ -1,7 +1,7 @@
 site:
   title: My Asciidoc Documentation
   url: https://mydocs.demo.com
-  start_page: index.adoc
+  start_page: test-asciidoc:index.adoc
 content:
   sources:
   - url: git@github.com:tdewolf/test-asciidoc.git
