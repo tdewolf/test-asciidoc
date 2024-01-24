@@ -4,9 +4,10 @@ site:
   start_page: test-asciidoc:index.adoc
 content:
   sources:
-  - url: git@github.com:tdewolf/test-asciidoc.git
-    branches: ['main']
-    start_path: docs
+    - url: /Users/tdewolf/IdeaProjects/test-asciidoc
+  #- url: git@github.com:tdewolf/test-asciidoc.git
+  #  branches: ['main']
+      start_path: docs
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable

@@ -1,6 +1,4 @@
-= Asciidoc text blocks
-:company: Datadobi
-
+.Asciidoc text blocks
 * xref:004-lists.adoc[]
 * xref:005-links-and-images.adoc[]
 * xref:007-delimited-blocks.adoc[]
