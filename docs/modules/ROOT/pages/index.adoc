@@ -1,4 +1,5 @@
 = Test Asciidoc
+:navtitle: Asciidoc
 Thomas De Wolf
 :keywords:asciidoc, asciidoctor, antora
 
