@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80dbe29-47c5-4929-96bc-d3e6916a97ef" name="Changes" comment="restructure docs according real life asciidoc project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/modules/ROOT/nav.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/ROOT/nav.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/modules/blocks/nav-blocks.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/blocks/nav-blocks.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/modules/blocks/pages/007-delimited-blocks.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/blocks/pages/007-delimited-blocks.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modules/ROOT/pages/index.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/ROOT/pages/index.adoc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
