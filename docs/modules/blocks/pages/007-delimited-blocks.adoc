@@ -1,6 +1,5 @@
 = Delimited blocks
 :examplesdir: ../examples
-:company: 'Datadobi'
 
 Specific blocks in Asciidoc +
 This is for {company}.
