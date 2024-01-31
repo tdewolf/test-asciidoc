@@ -4,7 +4,7 @@ site:
   start_page: test-asciidoc:index.adoc
 content:
   sources:
-    - url: /Users/tdewolf/IdeaProjects/test-asciidoc
+    - url: /Users/tdewolf/IdeaProjects/test/test-asciidoc
   #- url: git@github.com:tdewolf/test-asciidoc.git
   #  branches: ['main']
       start_path: docs
@@ -14,3 +14,5 @@ ui:
     snapshot: true
 runtime:
   fetch: true
+output:
+  dir: ./public
