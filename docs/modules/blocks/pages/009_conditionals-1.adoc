@@ -1,0 +1,5 @@
+= Conditionals 2
+include::attrs2.adoc[]
+
+include::../partials/product_sample.adoc[]
+

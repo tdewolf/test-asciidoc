@@ -3,6 +3,7 @@ version: '1.0'
 display_version: '1.0 Alpha 1'
 prerelease: '.0-alpha.1'
 title: Test Ascii Doctor
+start_page: index.adoc
 asciidoc:
   attributes:
     release-date: '2024-01-22'

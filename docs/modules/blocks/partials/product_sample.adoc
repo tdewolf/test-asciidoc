@@ -1,0 +1,7 @@
+ifdef::smap[]
+Product is set in attrs.adoc and has the value {smap}.
+endif::smap[]
+
+ifdef::dobimigrate[]
+The product is {dobimigrate}.
+endif::dobimigrate[]

@@ -1,8 +1,6 @@
 = Conditionals
-//include::attrs.adoc[]
+include::attrs.adoc[]
 
-ifdef::product[]
-Product is set in attrs.adoc
-endif::product[]
+include::partial$product_sample.adoc[]
 
-
+Include a partial either via `include::partial$file.adoc[]` or via path to the partial file `include::../partials/file.adoc[]`.

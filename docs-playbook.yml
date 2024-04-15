@@ -1,7 +1,7 @@
 site:
   title: My Asciidoc Documentation
   url: https://mydocs.demo.com
-  start_page: test-asciidoc:index.adoc
+  # start_page: test-asciidoc:index.adoc
 content:
   sources:
     - url: /Users/tdewolf/IdeaProjects/test/test-asciidoc
