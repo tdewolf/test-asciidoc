@@ -1,0 +1,8 @@
+= Conditionals
+include::attrs.adoc[]
+
+ifdef::product[]
+Product is set in attrs.adoc
+endif::product[]
+
+

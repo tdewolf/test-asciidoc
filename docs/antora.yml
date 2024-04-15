@@ -12,6 +12,7 @@ asciidoc:
     xrefstyle: short@
     example-caption: false
     listing-caption: Example@
+    page-pagination: ''
     version-node-major: '20'
     version-node: '20.11.0'
     version-npm: '10.2.4'

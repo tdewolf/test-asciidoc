@@ -3,3 +3,4 @@
 * xref:005-links-and-images.adoc[]
 * xref:007-delimited-blocks.adoc[]
 * xref:008-tables.adoc[]
+* xref:009_conditionals.adoc[]
