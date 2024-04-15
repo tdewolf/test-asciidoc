@@ -1,3 +1,4 @@
 *.html
 build/
 .DS_Store
+public/

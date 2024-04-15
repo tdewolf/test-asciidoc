@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80dbe29-47c5-4929-96bc-d3e6916a97ef" name="Changes" comment="restructure docs according real life asciidoc project">
-      <change afterPath="$PROJECT_DIR$/docs/modules/blocks/pages/009_conditionals.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/modules/blocks/pages/attrs.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs-playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs-playbook.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/antora.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/antora.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/modules/blocks/nav-blocks.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/blocks/nav-blocks.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modules/blocks/pages/009_conditionals.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules/blocks/pages/009_conditionals.adoc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
