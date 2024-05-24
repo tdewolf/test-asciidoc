@@ -1,7 +1,11 @@
 site:
   title: My Asciidoc Documentation
   url: https://mydocs.demo.com
+<<<<<<< HEAD
+  # start_page: test-asciidoc:index.adoc
+=======
   start_page: test-asciidoc::index.adoc
+>>>>>>> 14c0aa4 (fix playbook issue to make build work)
 content:
   sources:
     - url: .
